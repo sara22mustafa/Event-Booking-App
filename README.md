@@ -19,5 +19,3 @@ Event Booking App allows users to view multiple events, book them, and cancel bo
 2- npx expo start
 
 
-
-2ز2
