@@ -18,4 +18,5 @@ Event Booking App allows users to view multiple events, book them, and cancel bo
 1- Clone the repository:git clone https://github.com/sara22mustafa/Event-Booking-App
 2- npx expo start
 
-
+## Video screen record
+https://drive.google.com/file/d/1Pym4LQLdiEWSg-tFvX96H6I3CcP03Gyr/view?usp=sharing
