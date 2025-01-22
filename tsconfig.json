@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -9,4 +10,21 @@
     "skipLibCheck": true
   },
   "extends": "expo/tsconfig.base"
+=======
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+>>>>>>> 160375a156bdae31bd4b571e15a19aced983615a
 }

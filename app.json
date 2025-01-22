@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "my-project",
     "slug": "my-project",
     "version": "1.0.0",
@@ -12,17 +13,55 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+=======
+    "name": "eventBookingApp",
+    "slug": "expo-template-default",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+>>>>>>> 160375a156bdae31bd4b571e15a19aced983615a
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/adaptive-icon.png",
+=======
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+>>>>>>> 160375a156bdae31bd4b571e15a19aced983615a
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
+<<<<<<< HEAD
       "favicon": "./assets/favicon.png"
     }
   }
 }
+=======
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
+>>>>>>> 160375a156bdae31bd4b571e15a19aced983615a
